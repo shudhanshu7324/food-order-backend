@@ -15,7 +15,7 @@ const port = process.env.PORT || 3000; // Renamed for uniqueness
 
 // CORS configuration
 const corsSettings = {
-  origin: "*", // Frontend origin
+  origin: "https://food-order-frontend-5xgq.vercel.app", // Frontend origin
   methods: ["GET", "POST", "PUT", "DELETE"], // Allowed HTTP methods
   allowedHeaders: ["Content-Type", "Authorization"], // Permitted headers
 };
